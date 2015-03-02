@@ -1,0 +1,8 @@
+development:
+  adapter: mysql2
+  database:	 
+  username: root
+  port: <%= ENV['MYSQL_PORT_3306_TCP_PORT'] %>
+  password: <%= ENV['MYSQL_ENV_MYSQL_ROOT_PASSWORD'] %>
+  host: <%= ENV['MYSQL_PORT_3306_TCP_ADDR'] %>
+  socket: /tmp/mysql.sock
